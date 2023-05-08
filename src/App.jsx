@@ -1,8 +1,16 @@
+import About from './components/sections/About'
+import Contact from './components/sections/Contact'
+import Hero from './components/sections/Hero'
+import Projects from './components/sections/Projects'
+
 function App() {
   return (
     <>
-      <div>
-        <h1 className='font-bold text-blue-500 font-roboto'>Hello</h1>
+      <div className=' px-40'>
+        <Hero />
+        <About />
+        <Projects />
+        <Contact />
       </div>
     </>
   )
