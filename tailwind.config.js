@@ -5,6 +5,7 @@ export default {
   theme: {
     fontFamily: {
       roboto: ['Roboto Mono', 'sans-serif'],
+      poppins: ['Poppins', 'sans-serif'],
     },
     extend: {},
   },
