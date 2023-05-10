@@ -6,7 +6,7 @@ import Projects from './components/sections/Projects'
 function App() {
   return (
     <>
-      <div className=' box-border px-5 lg:px-40 sm:px-12 md:px-28 bg-slate-900 '>
+      <div className=' relative -top-5 box-border px-5 lg:px-40 sm:px-12 md:px-28 bg-slate-900 '>
         <div className='lg:mx-24'>
           <Hero />
           <About />

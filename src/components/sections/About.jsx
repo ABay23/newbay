@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div className=' flex flex-col'>
-      <div className='grid grid-cols-2 place-self-center pt-12'>
+      <div className='grid grid-cols-2 place-self-center py-24'>
         <div>
           <h1 className=' items-start font-roboto text-sm md:text-base text-blue-400'>
             About Me:
@@ -13,45 +13,56 @@ const About = () => {
             operations management. Expertise in developing web applications
             using the MERN (MongoDB, Express, React, Node.js) stack, and a
             passion for creating robust and scalable applications that meet the
-            unique needs of each client. Looking for a career change to pursue
-            my passion for building applications and working with
-            high-performance teams.
+            unique needs of each client.
+          </p>
+          <br />
+          <p className=' text-start md:text-lg font-roboto text-gray-200'>
+            {`I'm also starting my journey as a game developer on my free time. `}
+            Looking for a career change to pursue my passion for building
+            applications and working with high-performance teams.
           </p>
         </div>
-        <div>
-          <h1 className=' items-start font-roboto text-sm md:text-base text-blue-400'>
+        <div className=' block pl-4'>
+          <div className=' items-start font-roboto text-sm md:text-base text-blue-400'>
             My Skills:
-          </h1>
-          <ul className=' text-center font-poppins text-md sm:text-lg lg:text-xl text-gray-400 justify-between'>
-            <li className=' font-semibold rounded inline-block bg-blue-400 py-1 px-2 text-gray-900 shadow-sm shadow-gray-600'>
+          </div>
+          <div className=' flex flex-wrap font-poppins text-md sm:text-lg lg:text-xl text-gray-400 pt-4 '>
+            <div className=' mb-4 mr-4 text-center font-semibold rounded inline-block bg-blue-400 py-1 px-2 text-gray-900 shadow-sm shadow-gray-600'>
               html
-            </li>
-            <li className=' font-semibold rounded inline-block bg-blue-400 py-1 px-2 text-gray-900 shadow-sm shadow-gray-600'>
-              html
-            </li>
-            <li className=' font-semibold rounded inline-block bg-blue-400 py-1 px-2 text-gray-900 shadow-sm shadow-gray-600'>
-              html
-            </li>
-          </ul>
+            </div>
+            <div className=' mb-4 mr-4 text-center font-semibold rounded inline-block bg-blue-400 py-1 px-2 text-gray-900 shadow-sm shadow-gray-600'>
+              CSS
+            </div>
+            <div className=' mb-4 mr-4 text-center font-semibold rounded inline-block bg-blue-400 py-1 px-2 text-gray-900 shadow-sm shadow-gray-600'>
+              JavaScript
+            </div>
+            <div className=' mb-4 mr-4 text-center font-semibold rounded inline-block bg-blue-400 py-1 px-2 text-gray-900 shadow-sm shadow-gray-600'>
+              React js
+            </div>
+            <div className=' mb-4 mr-4 text-center font-semibold rounded inline-block bg-blue-400 py-1 px-2 text-gray-900 shadow-sm shadow-gray-600'>
+              Express
+            </div>
+            <div className=' mb-4 mr-4 text-center font-semibold rounded inline-block bg-blue-400 py-1 px-2 text-gray-900 shadow-sm shadow-gray-600'>
+              Mongo db
+            </div>
+            <div className=' mb-4 mr-4 text-center font-semibold rounded inline-block bg-blue-400 py-1 px-2 text-gray-900 shadow-sm shadow-gray-600'>
+              Redux
+            </div>
+            <div className=' mb-4 mr-4 text-center font-semibold rounded inline-block bg-blue-400 py-1 px-2 text-gray-900 shadow-sm shadow-gray-600'>
+              Node
+            </div>
+            <div className=' mb-4 mr-4 text-center font-semibold rounded inline-block bg-blue-400 py-1 px-2 text-gray-900 shadow-sm shadow-gray-600'>
+              Tailwindcss
+            </div>
+            <div className=' mb-4 mr-4 text-center font-semibold rounded inline-block bg-blue-400 py-1 px-2 text-gray-900 shadow-sm shadow-gray-600'>
+              C# Basics
+            </div>
+            <div className=' mb-4 mr-4 text-center font-semibold rounded inline-block bg-blue-400 py-1 px-2 text-gray-900 shadow-sm shadow-gray-600'>
+              Github
+            </div>
+          </div>
         </div>
       </div>
-      <p className=' text-left py-11'>
-        <span className=' tracking-tighter font-roboto text-2xl font-extrabold text-gray-500'>
-          Focusing on building
-        </span>
-        <br />
-        <span className=' tracking-tighter font-roboto text-2xl font-extrabold text-blue-400'>
-          great digital experiences
-        </span>
-        <br />
-        <span className=' tracking-tighter font-roboto text-2xl font-extrabold text-gray-500'>
-          turning ideas into
-        </span>
-        <br />
-        <span className=' tracking-tighter font-roboto text-2xl font-extrabold text-gray-500'>
-          web applications.
-        </span>
-      </p>
     </div>
   )
 }
