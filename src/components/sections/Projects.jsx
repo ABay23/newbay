@@ -1,7 +1,7 @@
 const Projects = () => {
   return (
     <div className=' flex flex-col'>
-      <div className='grid grid-cols-2 place-self-center py-24 md:w-auto lg:w-[1000px]'>
+      <div className='grid grid-cols-2 place-self-center py-24 md:w-auto lg:w-full'>
         <div className=' block lg:w-[500px] md:w-auto'>
           <h1 className=' items-start font-roboto text-sm md:text-base text-blue-400'>
             Projects:
