@@ -1,26 +1,57 @@
+import { FaTwitter, FaGithub } from 'react-icons/fa'
+
 const Contact = () => {
   return (
-    <div className=' flex flex-col'>
+    <div className=' flex flex-col pt-20 pb-28'>
       <div className='grid grid-cols-2 place-self-center py-24'>
         <div>
           <h1 className=' items-start font-roboto text-sm md:text-base text-blue-400'>
-            About Me:
+            Contact:
           </h1>
           <h2></h2>
           <p className=' text-start md:text-lg font-roboto text-gray-200'>
-            A self-thought software developer with a strong foundation in
-            computer science and a background in business analysis and
-            operations management. Expertise in developing web applications
-            using the MERN (MongoDB, Express, React, Node.js) stack, and a
-            passion for creating robust and scalable applications that meet the
-            unique needs of each client.
+            I&#39;m looking for new opportunities to grow as a developer and to
+            create new and exiting projects.
           </p>
           <br />
           <p className=' text-start md:text-lg font-roboto text-gray-200'>
-            {`I'm also starting my journey as a game developer on my free time. `}
-            Looking for a career change to pursue my passion for building
-            applications and working with high-performance teams.
+            If you have a request or want to connect, here are my links to my
+            email, twitter and Github account. Feel free to reach out, I&#39;ll
+            get back to you as soon as I have availability.
           </p>
+        </div>
+        <div className=' block pl-4'>
+          <div className='flex justify-center '>
+            <div className='  '>
+              <div className=' mb-4 mr-4 py-1 pl-14 text-blue-500'>
+                <a
+                  href='https://github.com/ABay23'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                >
+                  <FaGithub size={40} />
+                </a>
+              </div>
+              <div className='  mb-4 mr-4 py-1 pl-14 text-blue-500'>
+                <a
+                  href='https://twitter.com/ABay23dev'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                >
+                  <FaTwitter size={40} />
+                </a>
+              </div>
+              <a
+                href='mailto:alejandrobay23@gmail.com'
+                rel='noopener noreferrer'
+                target='_blank'
+              >
+                <button className=' mb-4 mr-4 text-center font-semibold rounded inline-block bg-blue-400 py-3 px-2 text-gray-900 shadow-sm shadow-gray-600'>
+                  Send me an e-mail
+                </button>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -7,7 +7,10 @@ const Projects = () => {
             Projects:
           </h1>
 
-          <h2> {`Inventory Management System "Papelon":`}</h2>
+          <h2 className=' text-start md:text-lg font-poppins py-2 text-gray-200'>
+            {' '}
+            {`Inventory Management System "Papelon":`}
+          </h2>
           <p className=' text-start md:text-lg font-roboto text-gray-200'>
             A self-thought software developer with a strong foundation in
             computer science and a background in business analysis and
