@@ -2,7 +2,7 @@ import { FaTwitter, FaGithub } from 'react-icons/fa'
 
 const Contact = () => {
   return (
-    <div className=' flex flex-col pt-20 pb-28'>
+    <div className=' flex flex-col pt-20 pb-28 my-8' id='contact'>
       <div className='grid grid-cols-2 place-self-center py-24'>
         <div>
           <h1 className=' items-start font-roboto text-sm md:text-base text-blue-400'>

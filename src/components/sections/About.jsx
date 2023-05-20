@@ -1,7 +1,7 @@
 const About = () => {
   return (
-    <div className=' flex flex-col'>
-      <div className='grid grid-cols-2 place-self-center py-24'>
+    <div className=' flex flex-col snap-always snap-center' id='about'>
+      <div className='grid grid-cols-2 place-self-center py-36 m-10 scroll-smooth'>
         <div>
           <h1 className=' items-start font-roboto text-sm md:text-base text-blue-400'>
             About Me:

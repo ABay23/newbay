@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className=' flex flex-row py-1'>
+    <div className=' flex flex-row py-10'>
       <div>
         <a
           href='https://github.com/ABay23'
