@@ -37,7 +37,7 @@ const Projects = () => {
           </p>
         </div>
         <div className=' block lg:w-[500px] md:w-auto'>
-          <img src='src/assets/Papelon-img-1.png' alt='project1' />
+          <img src='/Papelon-img-1.png' alt='project1' />
           <div className='flex flex-row justify-between items-center'>
             <a
               href='https://papelon.vercel.app/'

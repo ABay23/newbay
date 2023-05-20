@@ -1,7 +1,10 @@
 import { motion } from 'framer-motion'
+import { useState } from 'react'
 import { FaBuysellads } from 'react-icons/fa'
+import MobileMenu from './MobileMenu'
 FaBuysellads
 const Header = () => {
+  const [open, setOpen] = useState(false)
   return (
     <>
       <div className='sticky top-0 z-10'>
@@ -25,6 +28,7 @@ const Header = () => {
                 className='inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-900 dark:focus:ring-gray-600'
                 aria-controls='navbar-default'
                 aria-expanded='false'
+                onClick={() => setOpen(true)}
               >
                 <span className='sr-only'>Open main menu</span>
                 <svg
@@ -41,6 +45,15 @@ const Header = () => {
                   ></path>
                 </svg>
               </button>
+              {open ? (
+                <MobileMenu
+                  close={() => {
+                    setOpen(false)
+                  }}
+                />
+              ) : (
+                <></>
+              )}
               <div
                 className='hidden w-full md:block md:w-auto'
                 id='navbar-default'
@@ -81,7 +94,7 @@ const Header = () => {
                   </li>
                   <li className='animate-bounce'>
                     <a
-                      href='../public/Resume_Np_0523.pdf'
+                      href='/Resume_Np_0523.pdf'
                       target='_blank'
                       rel='nonopenner nonrefferrer'
                       className='  ablock py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-900 md:p-0 dark:text-white md:dark:hover:text-violet-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'
