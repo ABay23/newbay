@@ -19,8 +19,8 @@ const Contact = () => {
           <br />
           <p className=' text-start md:text-lg font-roboto text-gray-200'>
             If you have a request or want to connect, here are my links to my
-            email, twitter and Github account. Feel free to reach out, I&#39;ll
-            get back to you as soon as I have availability.
+            LinkedIn, email, twitter and Github account. Feel free to reach out,
+            I&#39;ll get back to you as soon as I have availability.
           </p>
         </div>
         <div className=' block pl-4'>
