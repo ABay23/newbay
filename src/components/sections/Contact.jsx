@@ -1,4 +1,4 @@
-import { FaTwitter, FaGithub } from 'react-icons/fa'
+import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa'
 
 const Contact = () => {
   return (
@@ -26,6 +26,15 @@ const Contact = () => {
         <div className=' block pl-4'>
           <div className='flex justify-center '>
             <div className='  '>
+              <div className=' mb-4 mr-4 py-1 pl-14 text-blue-500'>
+                <a
+                  href='https://www.linkedin.com/in/alejandrobay/'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                >
+                  <FaLinkedin size={40} />
+                </a>
+              </div>
               <div className=' mb-4 mr-4 py-1 pl-14 text-blue-500'>
                 <a
                   href='https://github.com/ABay23'
