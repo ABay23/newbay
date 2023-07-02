@@ -55,7 +55,7 @@ const Projects = () => {
               target='_blank'
               className='items-start font-roboto text-sm md:text-base text-blue-400 py-6'
             >
-              Papelon app (wait 50 seconds)
+              Papelon app
             </a>
             <div className='items-center font-roboto text-sm md:text-base text-blue-400 py-12 text-center'>
               <a
@@ -63,9 +63,8 @@ const Projects = () => {
                 rel='noopener noreferrer'
                 target='_blank'
               >
-                Fullstack Repo
-                <div className='pl-5'>
-                  <FaGithub size={25} />
+                <div className='pl-5 pr-20'>
+                  <FaGithub size={40} />
                 </div>
               </a>
             </div>
@@ -129,8 +128,8 @@ const Projects = () => {
                   rel='noopener noreferrer'
                   target='_blank'
                 >
-                  <div className='pl-5'>
-                    <FaGithub size={25} />
+                  <div className='pl-5 pr-20'>
+                    <FaGithub size={40} />
                   </div>
                 </a>
               </div>
