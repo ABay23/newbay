@@ -26,47 +26,44 @@ const Projects = () => {
             Full Stack application, Backeend in Nodejs using Express and
             MongoDB. MVC pattern with endpoints and Models. The Frontend is a
             React Application with Tailwindcss and Redux to manage the state.
-            Aditional I added Token validation and cookies, pagination, and KPIs
-            using a Slice.
+            Aditional I added authentication with Token validation and cookies,
+            pagination, and KPIs using a Slice.
           </p>
           <br />
           <p className=' text-start md:text-lg font-roboto text-gray-200'>
-            The MVP app is temporary hosted by Vercell - frontend and Render for
-            the backend with free tiers. To access the app the user is
-            tester2@gmail.com pass: 123123.
+            The MVP app was temporary hosted by Vercell for the frontend and
+            Render for the backend with free tiers. I changed the hosting to
+            Render for both on a new version (it takes 50 seconds to load the
+            first time you open the link, due to the server restart on a Render
+            free tier). To access the app the user is tester2@gmail.com pass:
+            123123.
           </p>
         </div>
         <div className=' block lg:w-[500px] md:w-auto'>
-          <img src='/Papelon-img-1.png' alt='project1' />
+          <a
+            href='https://papelon-1-0.onrender.com/'
+            rel='noopener noreferrer'
+            target='_blank'
+            className='items-start font-roboto text-sm md:text-base text-blue-400 py-6'
+          >
+            <img src='/Papelon-img-1.png' alt='project1' />
+          </a>
           <div className='flex flex-row justify-between items-center'>
             <a
-              href='https://papelon.vercel.app/'
+              href='https://papelon-1-0.onrender.com/'
               rel='noopener noreferrer'
               target='_blank'
               className='items-start font-roboto text-sm md:text-base text-blue-400 py-6'
             >
-              Papelon app
+              Papelon app (wait 50 seconds)
             </a>
             <div className='items-center font-roboto text-sm md:text-base text-blue-400 py-12 text-center'>
               <a
-                href='https://github.com/ABay23/IMN-2.0-backend'
+                href='https://github.com/ABay23/inventory-management-2.0'
                 rel='noopener noreferrer'
                 target='_blank'
               >
-                Backend
-                <div className='pl-5'>
-                  <FaGithub size={25} />
-                </div>
-              </a>
-            </div>
-
-            <div className='items-center font-roboto text-sm md:text-base text-blue-400 py-12 text-center'>
-              <a
-                href='https://github.com/ABay23/IMN-2.0-frontend'
-                rel='noopener noreferrer'
-                target='_blank'
-              >
-                Frontend
+                Fullstack Repo
                 <div className='pl-5'>
                   <FaGithub size={25} />
                 </div>
@@ -109,7 +106,14 @@ const Projects = () => {
             </p>
           </div>
           <div className=' block lg:w-[500px] md:w-auto'>
-            <img src='/wo-tracker-lego.png' alt='project2' />
+            <a
+              href='https://wo-tracker-lego.onrender.com/'
+              rel='noopener noreferrer'
+              target='_blank'
+              className='items-start font-roboto text-sm md:text-base text-blue-400 py-6'
+            >
+              <img src='/wo-tracker-lego.png' alt='project2' />
+            </a>
             <div className='flex flex-row justify-between items-center'>
               <a
                 href='https://wo-tracker-lego.onrender.com/'
