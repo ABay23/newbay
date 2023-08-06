@@ -1,29 +1,24 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: Generate a build and push to another branch
 
 on:
-  # Runs on pushes targeting the default branch
   push:
-    branches: 
+    branches:
       - main
 
-
 jobs:
-  # Single deploy job since we're just deploying
   build:
-    
     runs-on: ubuntu-latest
     name: Build and Push
     steps:
       - name: git-checkout
-        uses: actions/checkout@v3
-      
-      - name: Install dependencies
+        uses: actions/checkout@v2
+
+      - name: Install all dependencies
         run: npm install
-        
+
       - name: Build
-        run: npm run build
-        
+        run: npm run build # The build command of your project
+
       - name: Push
         uses: s0/git-publish-subdir-action@develop
         env:
